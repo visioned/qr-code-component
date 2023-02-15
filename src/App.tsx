@@ -3,7 +3,7 @@ import image from "./assets/image-qr-code.png";
 function App() {
   return (
     <div className="App">
-      <div className="p-4 h-[500px] w-[320px] bg-white rounded-2xl">
+      <div className="p-4 h-[500px] w-[320px] bg-white rounded-2xl shadow-xl">
         <img src={image} alt="" className="rounded-xl"/>
         <h1 className="text-2xl font-bold text-black text-center pt-5 mx-4 tracking-tight">
           Improve your front-end skills by building projects
